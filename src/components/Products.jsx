@@ -1,5 +1,5 @@
 import {  useEffect, useState } from "react";
-import '../styles/Products.css';
+// import '../styles/Products.css';
 import { Box } from '@mui/system'
 import {ListItem ,Button} from "@mui/material"
 import {Navbar } from'./Navbar'
@@ -110,7 +110,7 @@ export const Products = (props) =>
         <Box  sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
             { 
                 filterData.filter((ele) => {
-                        if(searchdata == "" || searchdata== undefined)
+                        if(searchdata === "" || searchdata=== undefined)
                         {
                             return data;
                         }

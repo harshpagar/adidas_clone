@@ -1,31 +1,17 @@
-.nav {
-  height: 80px;
-  width: 100%;
-  background-color: rgba(252, 249, 249, 0.969);
-  /* position: relative;
-   */
-   display: flex;
-   justify-content: space-between;
-  /* margin-top: 5%; */  
-
-}
- */
-.nav-header {
-  /* background-color: green; */
+.nav{
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.nav-links{
+  display: flex;
+  font-size: large;
+  margin-top: 2%; 
 }
 
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  float: left;
-  color: rgb(10, 10, 10);
-  padding: 10px 10px 10px 10px;
-}
-.cart{
-  height: 80px;
-  width: 200px;
+.nam{
+  font-size: 25px;
+  justify-content: space-around;
 }
 
 .search{
@@ -34,83 +20,23 @@
   padding: 0.4rem;
 }
 
- .nav > .nav-links {
-  display: inline;
-  float: left;
-  
-  font-size: 25px;
-  /* margin-left: 10%; */
-  margin-top: 2%; 
-}
-.nav > .nav-cs {
-  display: flex;
-  flex-direction: row;
-  margin-right: 260px;
-  float: right;
-  /* height: 200px; */
-} 
+
+
 .nav img{
   width: 50%;
   margin-top: 5%;
 }
-.cart{
-  margin-top: 5%;
-}
+
 .log{
   height: 50px;
   width: 50px;
 }
 
-
-
-@media (max-width:992px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-.search{
-  margin-left: 30%;
-}
-.acc_img{
-  height: 50px;
-  width:50px;
-}
-.items{
-  height:50px;
-  width:50px;
-  /* margin-left: 500px; */
-
-}
-.nam{
-  padding: 255px;
-  color: black;
-  font-size:16px;
-  /* margin-top: -4%; */
- text-decoration: none;  
-} 
-}
-
-.carticon >svg{
-  height: 50px;
-  width:50px;
-  margin-top: 20%;
-  margin-left: -50%;
-}
 .admin{
+  margin-right:50px;
+}
+svg{
   height: 100px;
   width:50px;
-  margin-right:150px;
 
 }

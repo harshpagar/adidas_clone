@@ -1,5 +1,5 @@
 // import react from 'react' 
-// import '../styles/Navbar.css';
+import '../styles/Navbar.css';
 import { useNavigate } from 'react-router-dom';
 // import Button from '@mui/material/Button';
 import {Link} from 'react-router-dom'
@@ -25,11 +25,11 @@ const Navbar = (props) => {
           </div>
 
           <div className='nav-links'> 
-              <span className='nam' onClick={Navigate} >Shop</span>
-              <span className='nam' onClick={Navigate} >Men</span>
-              <span className='nam' onClick={Navigate} >Women</span>
-              <span className='nam' onClick={Navigate}>Explore</span>
-              <span className='nam' onClick={Navigate}>Shop near you</span>       
+              <div className='nam' onClick={Navigate} >Shop</div>
+              <div className='nam' style={{fontSize:"25px"}} onClick={Navigate} >Men</div>
+              <div className='nam' onClick={Navigate} >Women</div>
+              {/* <div className='nam' onClick={Navigate}>Explore</div> */}
+              <div className='nam' onClick={Navigate}>Shop near you</div>       
           </div>
 
           <div>

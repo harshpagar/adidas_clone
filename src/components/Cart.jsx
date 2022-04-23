@@ -5,6 +5,8 @@ import "@mui/icons-material"
 import { IconButton } from '@mui/material';
 import { useState } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
+import { useNavigate } from 'react-router-dom';
+import Button from '@mui/material/Button';
 
 export const Cart = () =>
 {
@@ -18,9 +20,7 @@ export const Cart = () =>
     console.log(c)
     console.log(value)
 
-   
-
-
+    const navigate = useNavigate();
 
     const deletecart = (product) =>
     {
@@ -69,27 +69,25 @@ export const Cart = () =>
                 </div>
 
                 <div id="order_summary">
-                        <a href="billing_page.html">
-                            <div className="checkout_btn" >
-                                <p> checkout </p>
-                            </div>
-                        </a>
+                        <Button variant="outlined" style={{color: "white",backgroundColor: "black",width:360,marginBottom:"15px"}} onClick={() => navigate("/billing")}>
+                                Checkout
+                        </Button>   
                     
                     <div className="summary">
                     <p className="bold-font "> Order Summary </p>
                         <hr id="summary-line" />
                         <div className="rows">
                             <p className="col1">Price (Incl Item Discounts)</p>
-                            <p  className="col2" id="total"> ₹ 0.00 </p>
+                            <p  className="col2" id="total"> {c} </p>
                         </div>
 
                         <div className="rows">
-                            <p>Order Discounts</p>
-                            <p id="discount">-₹ 0.00 </p>
+                            <p  className="bold-font">DELIVERY</p>
+                            <p id="discount">Free </p>
                         </div>
 
                         <div className="rows">
-                            <p> Total  </p>
+                            <p  className="bold-font"> Total  </p>
                             <p id="sum">  {c}   <small className="sm-text">(Inclusive of all taxes)</small></p> 
                         </div>
 

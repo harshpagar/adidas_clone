@@ -43,62 +43,62 @@ const Home = () => {
 
             <div id="fmenu">
             <div class="fcontainer">
-                <ul>
+                
                     <h2>PRODUCTS</h2>
-                    <li>Footwear</li>
-                    <li>Clothing</li>
-                    <li>Accessories</li>
-                    <li>Outlet – Sale</li>
-                    <li>New Arrivals</li>
-                </ul>
+                    <p>Footwear</p>
+                    <p>Clothing</p>
+                    <p>Accessories</p>
+                    <p>Outlet – Sale</p>
+                    <p>New Arrivals</p>
+               
             </div>
             <div class="fcontainer">
-                <ul>
+                
                     <h2>SPORTS</h2>
-                    <li>Running</li>
-                    <li>Football</li>
-                    <li>Gym/Training</li>
-                    <li>Tennis</li>
-                    <li>Outdoor</li>
-                    <li>Basketball</li>
-                    <li>Swimming</li>
-                </ul>
+                    <p>Running</p>
+                    <p>Football</p>
+                    <p>Gym/Training</p>
+                    <p>Tennis</p>
+                    <p>Outdoor</p>
+                    <p>Basketball</p>
+                    <p>Swimming</p>
+                
             </div>
             <div class="fcontainer">
-                <ul>
+                
                     <h2>COLLECTIONS</h2>
-                    <li>Ultraboost</li>
-                    <li>Superstar</li>
-                    <li>Predator</li>
-                    <li>Parley</li>
-                    <li>adicolor</li>
-                </ul>
+                    <p>Ultraboost</p>
+                    <p>Superstar</p>
+                    <p>Predator</p>
+                    <p>Parley</p>
+                    <p>adicolor</p>
+            
             </div>
             <div class="fcontainer">
-                <ul>
+                
                     <h2>SUPPORT</h2>
-                    <li>Help</li>
-                    <li>Customer Services</li>
-                    <li>Returns & Exchanges</li>
-                    <li>Store Locator</li>
-                    <li>Bra Fit Guide</li>
-                    <li>Shipping</li>
-                    <li>adiclub</li>
-                    <li>Order Tracker</li>
-                </ul>
+                    <p>Help</p>
+                    <p>Customer Services</p>
+                    <p>Returns & Exchanges</p>
+                    <p>Store Locator</p>
+                    <p>Bra Fit Guide</p>
+                    <p>Shipping</p>
+                    <p>adiclub</p>
+                    <p>Order Tracker</p>
+                
                 
             </div>
 
             <div class="fcontainer">
-                <ul>
+                
                     <h2>COMPANY INFO</h2>
-                    <li>About Us</li>
-                    <li>adidas stories</li>
-                    <li>adidas Apps</li>
-                    <li>Entity Details</li>
-                    <li>Press</li>
-                    <li>Careers</li>
-                 </ul>
+                    <p>About Us</p>
+                    <p>adidas stories</p>
+                    <p>adidas Apps</p>
+                    <p>Entity Details</p>
+                    <p>Press</p>
+                    <p>Careers</p>
+                 
                 
             </div>
         </div>

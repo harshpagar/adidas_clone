@@ -1,5 +1,5 @@
 import React from "react"
-// import '../styles/Home.css';
+import '../styles/Home.css';
 import Button from '@mui/material/Button';
 import {Navbar } from './Navbar'
 import { Box } from '@mui/system'

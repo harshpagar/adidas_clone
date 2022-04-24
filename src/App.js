@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Products} from './components/Products'
 import { Cart } from './components/Cart'
 import { Billing } from './components/Billing'
+import { Login } from './components/Login'
 
 
 
@@ -18,6 +19,7 @@ function App() {
               <Route path="/Products" element={<Products />} />
               <Route path="/cart" element={< Cart/>} />
               <Route path="/billing" element={< Billing/>} />
+              <Route path="/login" element={< Login/>} />
 
           </Routes>
         </BrowserRouter>

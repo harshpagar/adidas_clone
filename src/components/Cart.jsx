@@ -59,7 +59,8 @@ export const Cart = () =>
                                 <h4 className='cate'> {prod.category} </h4>
                                 <h4 className='type'> {prod.type} </h4>
                                 <p className='pri'> ₹  {prod.Price} </p>
-                                
+                                <td style={{fontSize: "large"}} >Quantity<input style={{width:"20px",marginLeft:"10px"}} type={"text"} value={"1"} /> </td>
+
                                 <IconButton onClick={() => deletecart(prod)}  style={{marginLeft:"450px",marginTop:"-250px"}}  aria-label="delete">
                                             <DeleteIcon />
                                 </IconButton>

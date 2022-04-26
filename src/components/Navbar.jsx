@@ -28,7 +28,7 @@ const Navbar = (props) => {
               <div className='nam' onClick={Navigate} >Shop</div>
               <div className='nam' style={{fontSize:"25px"}} onClick={Navigate} >Men</div>
               <div className='nam' onClick={Navigate} >Women</div>
-              {/* <div className='nam' onClick={Navigate}>Explore</div> */}
+              <div className='nam' onClick={Navigate}>Explore</div>
               <div className='nam' onClick={Navigate}>Shop near you</div>       
           </div>
 

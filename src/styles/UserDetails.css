@@ -1,0 +1,15 @@
+.mainu{
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    height: 240px;
+    width: 300px;
+    align-content: center;
+    margin-left: 600px; 
+    background-color: rgb(213, 242, 232);
+    font-family: cursive;
+    font-size: large;
+}
+.ud{
+    font-family: cursive;
+    font-size: x-large;
+}

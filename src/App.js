@@ -5,7 +5,8 @@ import { Products} from './components/Products'
 import { Cart } from './components/Cart'
 import { Billing } from './components/Billing'
 import { Login } from './components/Login'
-
+import { SignUp } from './components/SignUp'
+import { UserDetails } from './components/UserDetails';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
               <Route path="/cart" element={< Cart/>} />
               <Route path="/billing" element={< Billing/>} />
               <Route path="/login" element={< Login/>} />
-
+              <Route path="/signUp" element={< SignUp/>} />
+              <Route path="/user" element={< UserDetails />} /> 
           </Routes>
         </BrowserRouter>
 

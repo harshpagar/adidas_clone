@@ -28,16 +28,17 @@
   margin-top: 5%;
 }
 
-.log{
-  height: 50px;
-  width: 50px;
-}
 
 .admin{
-  margin-right:50px;
+  margin-right:100px;
+  margin-bottom: -50px;
+
 }
 svg{
-  height: 100px;
+  height: 90px;
   width:50px;
 
+}
+.carticon{
+  margin-left:  20px;
 }

@@ -1,11 +1,4 @@
-// import { reducer } from "./reducer"
-// import { createStore } from 'redux'
 
-
-// const store = createStore(reducer)
-
-
-// export {store}
 
 import { createStore,applyMiddleware } from "redux";
 

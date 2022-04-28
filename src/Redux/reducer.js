@@ -1,0 +1,52 @@
+// import { STORE_DATA } from "./actionTypes";
+
+// const initState = {
+//     data : []
+// }
+
+// const reducer  = (state=initState, action) => {
+//     switch(action.type){
+//         case  STORE_DATA :
+//             return {...state, data :action.payload}
+
+//         default :
+//         return state;
+//     }
+// }
+
+// export{reducer }
+
+import {  GET_DATA_ERROR,  GET_DATA_LOADING, GET_DATA_SUCCESS } from "./actionTypes";
+  
+  
+  const init = {
+    todos: [],
+  };
+  
+  
+  export const reducer = (state = init, { type, payload,id }) => {
+    switch (type) {
+      case GET_DATA_LOADING:
+        return {
+          ...state,
+          loading: true,
+        };
+  
+      case GET_DATA_SUCCESS:
+        return {
+          ...state,
+          todos: payload,
+          loading: false,
+        };
+  
+      case GET_DATA_ERROR:
+        return {
+          ...state,
+          loading: false,
+          error: true,
+        };
+      
+      default:
+        return state;
+    }
+  };

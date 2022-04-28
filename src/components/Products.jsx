@@ -3,15 +3,20 @@ import '../styles/Products.css';
 import { Box } from '@mui/system'
 import {ListItem ,Button} from "@mui/material"
 import {Navbar } from'./Navbar'
+import { useDispatch, useSelector } from "react-redux";
+
+import { getDataError, getDataLoading, getDataSuccess} from "../Redux/action";
 
 
 export const Products = (props) =>
 {
     let cart = []
     const [data,setData] = useState([])
-    const [filterData, setfilterData] =useState([])
-
+    // const [filterData, setfilterData] =useState([])
     const [searchdata,setSearchdata ] = useState("")
+    const [sort1 , setSort] = useState("")
+    const [typefilter1 , setTypefilter1] = useState("all")
+    const [catfilter1 , setCatfilter1] =useState("all")
 
     const searchd = (ele) => 
     {
@@ -20,60 +25,41 @@ export const Products = (props) =>
     }
 
 
-    const catfilter = (cat) => {
-        console.log(cat)
-        const updatedList = data.filter((curElem) => {
-  
-          return curElem.category === cat
-        })
-        setfilterData(updatedList);
-        console.log(updatedList);
-    }
- 
-    const typefilter = (fil) => {
-        console.log(fil)
-        const updatedList = data.filter((curElem) => {
-  
-          return curElem.type === fil
-        })
-        setfilterData(updatedList);
-        console.log(updatedList);
-
+    const sorting =(p) => {
+        setSort(p)
     }
 
-    const htolItem = () => {
-        const HtoL = data.sort((a,b)=>{
-        return b.Price - a.Price;
-      });
-      setfilterData(HtoL)
-      console.log(HtoL)
+    const typefilter =(p) => {
+        setTypefilter1(p)
     }
 
-    const ltohItem = () => {
-        const LtoH = data.sort((a,b)=>{
-          return  a.Price - b.Price;
-        });
-        setfilterData(LtoH)
-        console.log(LtoH)
+    const catfilter =(p) => {
+        setCatfilter1(p)
     }
 
-    const fetchData = () =>
-    {
-        fetch('https://adidas11.herokuapp.com/products')
-        .then( (res) => res.json())
-        .then( (res) => {
-            setData(res)
-            setfilterData(res)
-        })
-            
-        .catch( (err) => console.log(err))
-    }
-    useEffect(
-        ()=>
-        {
+
+    const dispatch = useDispatch();
+    
+    const { todos } = useSelector((state) => ({
+      todos: state.todos,
+    }));
+    console.log(todos)    
+
+    useEffect(()=>{
             fetchData()
-        },[]
-    );
+        },[]);
+
+    const fetchData = async() =>{
+    try {
+        dispatch(getDataLoading());
+        const fetchdata = await fetch('https://adidas11.herokuapp.com/products')
+        .then( (res) => res.json());
+        dispatch(getDataSuccess(fetchdata));
+            
+     } catch (err) {
+            dispatch(getDataError(err));
+      }
+    }
 
     if(localStorage.getItem("cart") === null){
         localStorage.setItem("cart",JSON.stringify([]));
@@ -101,15 +87,15 @@ export const Products = (props) =>
             <span id='spanbutton2'><Button onClick={() => catfilter("Womens")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Womens</Button></span>
             <span id='spanbutton2'><Button onClick={() => typefilter("Sportswear")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Sportswear</Button></span>
             <span id='spanbutton2'><Button onClick={() => typefilter("Running")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Running</Button></span>
-            <span id='spanbutton'><Button  onClick={() => htolItem()} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">High To Low</Button></span>
-            <span id='spanbutton1'><Button onClick={() => ltohItem()} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Low To High</Button></span>
+            <span id='spanbutton'><Button  onClick={() => sorting("htol")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">High To Low</Button></span>
+            <span id='spanbutton1'><Button onClick={() => sorting("ltoh")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Low To High</Button></span>
           
 
         </div>
         <div className='productdiv'>
         <Box  sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
             { 
-                filterData.filter((ele) => {
+                todos.filter((ele) => {
                         if(searchdata === "" || searchdata=== undefined)
                         {
                             return data;
@@ -118,7 +104,32 @@ export const Products = (props) =>
                         {
                             return ele.Title.toLowerCase().includes(searchdata.toLowerCase());
                         }
-                    }).map(e=>(
+                    })
+                    .sort((a,b) => {
+                        if(sort1 === "ltoh")
+                        {
+                             return a.Price - b.Price;   
+                        }
+                        else if( sort1 === "htol"){
+                            return b.Price - a.Price;
+                        }
+                    })
+                    .filter((e) => {
+                        if(typefilter1 === "all"){
+                            return e;
+                        } else {
+                            return e.type === typefilter1;
+                        }
+                        
+                    })
+                    .filter((e) => {
+                        if(catfilter1 === "all"){
+                            return e;
+                        } else {
+                            return e.category === catfilter1;
+                        }
+                    })
+                    .map(e=>(
                      <ListItem className='listitem' style={{display:"grid"}}>
                     <img className="image" src={e.img1} alt="sofa1" />
                     <h4  className="tit">{e.Title}</h4>

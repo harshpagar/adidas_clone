@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 import {Navbar } from './Navbar'
+import { Footer } from "./Footer";
 
 
 
@@ -19,7 +20,7 @@ export const Billing = () =>
         <h2>Billing</h2>
         <strong>Credit or Debit Card</strong>
         <br/> <br/>
-        <div style={{height:"400px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"40px",marginLeft:"450px"}}>        
+        <div style={{height:"400px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"40px",marginLeft:"450px",marginBottom:"70px"}}>        
             <Box>
                 <TextField style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Full Name : " id="fullWidth" />
                 <br /><br />
@@ -42,6 +43,7 @@ export const Billing = () =>
                     Checkout
                 </Button>  
         </div>
+        <Footer/>
     </div>
     </>
   );

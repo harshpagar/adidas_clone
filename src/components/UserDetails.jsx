@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import {Navbar } from './Navbar'
 import '../styles/UserDetails.css';
 import Button from '@mui/material/Button';
+import { Footer } from "./Footer";
+
 
 export const UserDetails = () =>
 {
@@ -29,6 +31,7 @@ export const UserDetails = () =>
                     LogOut
             </Button> 
             </div><br />
+            <Footer/> 
         </>
     )
 }

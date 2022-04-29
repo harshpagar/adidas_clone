@@ -7,6 +7,7 @@ import { useState } from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useNavigate } from 'react-router-dom';
 import Button from '@mui/material/Button';
+import { Footer } from "./Footer";
 
 export const Cart = () =>
 {
@@ -104,6 +105,7 @@ export const Cart = () =>
                 <hr/>
              </div>
         </div>
+        <Footer/> 
         </div>
     )
 }

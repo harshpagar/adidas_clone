@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import {Navbar } from './Navbar'
+import { Footer } from "./Footer";
 
 
 
@@ -56,7 +57,7 @@ export const Login = () =>
         <h2>Login</h2>
         <strong>Details</strong>
         <br/> <br/>
-        <div style={{height:"400px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"40px",marginLeft:"450px"}}>        
+        <div style={{height:"400px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"40px",marginLeft:"450px",marginBottom:"70px"}}>        
         <form onSubmit={login}>
             <Box>
                 <TextField type={"email"}   onChange={(e) => {setUserame(e.target.value)}}style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Your Email  " id="fullWidth" />
@@ -81,6 +82,7 @@ export const Login = () =>
 
 
         </div>
+        <Footer/> 
     </div>
     </>
   );

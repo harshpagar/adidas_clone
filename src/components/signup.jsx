@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from "react";
-
+import { Footer } from "./Footer";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
@@ -57,7 +57,7 @@ export const SignUp = () =>
         <h1>SignUp</h1>
         <strong>Details</strong>
         <br/> <br/>
-        <div style={{height:"480px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"20px",marginLeft:"450px"}}>        
+        <div style={{height:"480px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"20px",marginLeft:"450px",marginBottom:"70px"}}>        
         <form onSubmit={Signup}>
             <Box>
                 <TextField type={"text"} style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Your Name  " id="fullWidth" onChange={(e) => {setName(e.target.value)}} />
@@ -83,6 +83,7 @@ export const SignUp = () =>
 
 
         </div>
+        <Footer/> 
     </div>
     </>
   );

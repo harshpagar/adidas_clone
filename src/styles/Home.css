@@ -44,21 +44,7 @@
     margin-top: 50px;
 }
 
-#fmenu{
-    width: 100%;
-    padding: 2.81rem 0 1.87rem 0;
-    display: flex;
-    justify-content: center;
-    background-color:white;
 
-}
-
-.fcontainer{
-    width: 17%;
-    /* border: 1px solid; */
-    padding: 0.625rem;
-
-}
 .best{
     margin-top: 100px;
 }
@@ -66,15 +52,4 @@
     margin-top: 100px;
 
 }
-.last{
-    height:100px;
-    background-color:rgb(59, 62, 62) ;
-    color: rgb(188, 179, 179);
-}
-.p{
-    margin-left: 800px;
-}
-.i{
-    margin-right : 800px;
-    margin-top:  5px;
-}
+

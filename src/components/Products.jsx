@@ -4,7 +4,7 @@ import { Box } from '@mui/system'
 import {ListItem ,Button} from "@mui/material"
 import {Navbar } from'./Navbar'
 import { useDispatch, useSelector } from "react-redux";
-
+import { Footer } from "./Footer";
 import { getDataError, getDataLoading, getDataSuccess} from "../Redux/action";
 
 
@@ -148,6 +148,6 @@ export const Products = (props) =>
 
                 </div>
             </div>
-            {/* <Footer/> */}
+            <Footer/>
         </div>);
 }

@@ -4,8 +4,14 @@ import Button from '@mui/material/Button';
 import {Navbar } from './Navbar'
 import { Box } from '@mui/system'
 import { Footer } from "./Footer";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const Nav = useNavigate();
+
+  const Navigate = () =>{
+     Nav("/Products")
+  }
     return (
         <>
         <Navbar/> 
@@ -13,7 +19,7 @@ const Home = () => {
             <div className="main">
                 <h1 className="but">YZY 700 MNVN GEODE</h1>
                 <h4 className="but">AVAILABLE NOW</h4>
-                <Button className="but">Shop Now -</Button>           
+                <Button className="but" onClick={Navigate} >Shop Now -</Button>           
                  <img className='img1' src="https://www.masamovement.com/wp-content/uploads/2020/04/bone-700-thegem-blog-default.jpg" alt="imgtasg"></img>
             </div>  
             <div className="mid">

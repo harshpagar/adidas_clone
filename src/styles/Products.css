@@ -1,78 +1,84 @@
-.product {
-    color: black;
-    text-align: center;
-    height: 100px;
-   
-  }
-  
-  .sortingdiv {
+.sortingdiv {
     width: 300px;
     align-items: center;
     margin: 10px;
-    /* margin-top: 0px; */
-    margin-left: 5px;
+    margin-left: -50px;
     height: 700px;
     padding: 5px;
-  }
-  
+}
+#spanbutton2 :hover {
+  background-color: rgb(12, 12, 12);
+  border-radius: 10px;
 
-  .productdiv {
-    width: 1000px;
-  
-    margin: 15px;
+}
+.productdiv {
+    width: 1100px;
+    margin: 15px; 
     margin-top: 0px;
-  }
-  .flex {
+} 
+
+.flex {
     display: flex;
-  }
+}
   
-  #spandiscount {
+#spandiscount {
     text-decoration: line-through;
     color: grey;
     font-weight: normal;
     font-size: 13px;
     margin-left: 5px;
-  }
+}
   
-  #spanbutton {
+#spanbutton {
     margin-left: 100px;
     
-  }
-  #spanbutton1 {
+}
+
+#spanbutton2 {
     margin-left: 100px;
-    padding: 5px; 
-   }
-  #spanbutton2 {
-    margin-left: 100px;
-  }
+}
  
-  #productsMain{
+#productsMain{
     text-decoration: none;
     color : black
-  }
+}
   
-  .listitem > .discount {
+.listitem{
+    gap: 5px;
+    transition: background-color .5s;
+}
+
+.listitem:hover {
+  background-color: rgb(211, 237, 230);
+  border-radius: 10px;
+
+}
+
+.listitem > .discount {
     margin-bottom: 5px;
     color: green;
     font-weight: bold;
     font-size: 14px;
-  }
+}
   
-  .listitem > .price {
-    /* margin-bottom: 5px;   */
+.listitem > .price {
     color: rgb(73, 62, 36);
     font-weight: bold;
     font-size: 18px;
     
-  }
-.image{
-    width:280px; 
-    height:300px;
-
 }
+
+.image{
+    width:320px; 
+    height:320px;
+    /* border: 1px solid rgb(7, 152, 133); */
+    border-radius: 20px;
+}
+
 .tit{
   margin-Bottom:6px;
 }
+
 .sam{
   margin-bottom: 5px;
 }

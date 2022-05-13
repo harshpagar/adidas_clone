@@ -83,12 +83,12 @@ export const Products = (props) =>
         
         <div className='flex'>
         <div className='sortingdiv'>
-            <span id='spanbutton2'><Button onClick={() => catfilter("Mens")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Mens</Button></span>
-            <span id='spanbutton2'><Button onClick={() => catfilter("Womens")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Womens</Button></span>
-            <span id='spanbutton2'><Button onClick={() => typefilter("Sportswear")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Sportswear</Button></span>
-            <span id='spanbutton2'><Button onClick={() => typefilter("Running")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Running</Button></span>
-            <span id='spanbutton'><Button  onClick={() => sorting("htol")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">High To Low</Button></span>
-            <span id='spanbutton1'><Button onClick={() => sorting("ltoh")} style={{backgroundColor:"rgb(11, 97, 93)",marginTop:"15px",width:"140px"}} variant="contained">Low To High</Button></span>
+            <span id='spanbutton2'><Button onClick={() => catfilter("Mens")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Mens</Button></span>
+            <span id='spanbutton2'><Button onClick={() => catfilter("Womens")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Womens</Button></span>
+            <span id='spanbutton2'><Button onClick={() => typefilter("Sportswear")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Sportswear</Button></span>
+            <span id='spanbutton2'><Button onClick={() => typefilter("Running")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Running</Button></span>
+            <span id='spanbutton2'><Button  onClick={() => sorting("htol")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">High To Low</Button></span>
+            <span id='spanbutton2'><Button onClick={() => sorting("ltoh")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Low To High</Button></span>
           
 
         </div>

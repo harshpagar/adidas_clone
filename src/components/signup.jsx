@@ -12,7 +12,7 @@ import {Navbar } from './Navbar'
 
 export const SignUp = () => 
 {
-    const [username,setUserame]=useState("")
+    const [email,setEmail]=useState("")
     const [name,setName]=useState("")
     const [password,setPassword]=useState("")
     const [mobileno,setMobileno]=useState("");
@@ -21,7 +21,7 @@ export const SignUp = () =>
     const Signup = () =>{
     var user = {
         "name":name,
-        "username":username,
+        "email":email,
         "password":password,
         "mobileno": mobileno,
     }
@@ -30,9 +30,9 @@ export const SignUp = () =>
     var c = 0;
     for(var i=0;i<userdata.length;i++)
     {
-        if(user.username === userdata[i].username)
+        if(user.email === userdata[i].email)
         {
-            alert("User is already Registered");
+            alert("Email is already Registered");
             c++;
         }
     }
@@ -43,7 +43,7 @@ export const SignUp = () =>
         alert("Signup Successfull..")
         navigate("/login");
     }
-    console.log(username,password);  
+    console.log(email,password);  
 
 }
 
@@ -62,7 +62,7 @@ export const SignUp = () =>
             <Box>
                 <TextField type={"text"} style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Your Name  " id="fullWidth" onChange={(e) => {setName(e.target.value)}} />
                 <br /><br />
-                <TextField type={"email"}  style={{width:"500px"}} fullWidth label="Enter Your Email  " id="fullWidth" onChange={(e) => {setUserame(e.target.value)}} /> 
+                <TextField type={"email"}  style={{width:"500px"}} fullWidth label="Enter Your Email  " id="fullWidth" onChange={(e) => {setEmail(e.target.value)}} /> 
                 <br />      
                 <TextField type={"password"} style={{width:"500px",marginTop:"10px"}} fullWidth label="Password  " id="fullWidth"  onChange={(e) => {setPassword(e.target.value)}}/>
                 <br />      

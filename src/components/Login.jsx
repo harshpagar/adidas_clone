@@ -13,7 +13,7 @@ import { Footer } from "./Footer";
 export const Login = () => 
 {
    
-    const [username,setUserame]=useState("");
+    const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
     const navigate = useNavigate();    
 
@@ -30,7 +30,7 @@ export const Login = () =>
         var c = 0;
         for(var i=0;i<data.length;i++)
         {
-            if(data[i].username === username && data[i].password === password)
+            if(data[i].email === email && data[i].password === password)
             {
                 alert("login Successfully");
                 c++;   
@@ -60,7 +60,7 @@ export const Login = () =>
         <div style={{height:"400px",borderColor:"black",border: "1px solid black",width:"600px",marginTop:"40px",marginLeft:"450px",marginBottom:"70px"}}>        
         <form onSubmit={login}>
             <Box>
-                <TextField type={"email"}   onChange={(e) => {setUserame(e.target.value)}}style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Your Email  " id="fullWidth" />
+                <TextField type={"email"}   onChange={(e) => {setEmail(e.target.value)}}style={{width:"500px",marginTop:"50px"}} fullWidth label="Enter Your Email  " id="fullWidth" />
                 <br /><br />
                 <TextField type={"password"}  onChange={(e) =>{setPassword(e.target.value)}} style={{width:"500px"}} fullWidth label="Password: " id="fullWidth" /> 
                 <br />      

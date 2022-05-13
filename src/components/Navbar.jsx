@@ -75,6 +75,3 @@ const Navbar = (props) => {
   )
 } 
 export {Navbar} ;
-
-
-

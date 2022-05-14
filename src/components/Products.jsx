@@ -12,7 +12,6 @@ export const Products = (props) =>
 {
     let cart = []
     const [data,setData] = useState([])
-    // const [filterData, setfilterData] =useState([])
     const [searchdata,setSearchdata ] = useState("")
     const [sort1 , setSort] = useState("")
     const [typefilter1 , setTypefilter1] = useState("all")
@@ -67,7 +66,6 @@ export const Products = (props) =>
 
     console.log(localStorage.getItem("cart") === null)
 
-    // localStorage.setItem("cart",cart)
     const updateCart = (prod) =>{
         let cartData =JSON.parse(localStorage.getItem("cart"))
         cart = [...cartData, prod]
@@ -77,11 +75,13 @@ export const Products = (props) =>
         alert("Product added into the cart!");
     }
 
-    return(<div>
+    return(
+    <div>
         <Navbar searchd={searchd} />
-        <h1>SHOES </h1>
-        
+       <div className="f">
+          <h1>SHOES </h1>
         <div className='flex'>
+        
         <div className='sortingdiv'>
             <span id='spanbutton2'><Button onClick={() => catfilter("Mens")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Mens</Button></span>
             <span id='spanbutton2'><Button onClick={() => catfilter("Womens")} style={{backgroundColor:"rgb(59, 198, 198)",borderRadius:"15px",marginTop:"15px",width:"140px"}} variant="contained">Womens</Button></span>
@@ -129,23 +129,25 @@ export const Products = (props) =>
                             return e.category === catfilter1;
                         }
                     })
-                    .map(e=>(
-                     <ListItem className='listitem' style={{display:"grid"}}>
+                    .map(e=>(   
+                    <ListItem className='listitem' style={{display:"grid"}}>
+                    
                     <img className="image" src={e.img1} alt="sofa1" />
                     <h4  className="tit">{e.Title}</h4>
                     <div className="sam">{e.category}</div>
                     <div className="sam">{e.type}</div>
-                    <div className='price' >₹ {e.Price} </div>
-                        <div className='discount' ><span id='spanbutton'>
+                    <div className='price'>₹ {e.Price} </div>
+                    <div className='discount' ><span id='spanbutton'>
                         <Button onClick={()=>{updateCart(e)}} style={{backgroundColor:"rgb(4, 185, 85)",marginTop: "-80px",marginLeft: "45px"}} variant="contained">Add To Cart</Button></span>
-                        </div>
+                    </div>
+                    
                     </ListItem>
                 )) 
             }
       
     </Box>
    
-
+                </div>
                 </div>
             </div>
             <Footer/>

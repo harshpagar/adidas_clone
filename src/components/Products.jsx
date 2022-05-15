@@ -78,7 +78,7 @@ export const Products = (props) =>
     return(
     <div>
         <Navbar searchd={searchd} />
-       <div className="f">
+        <div>
           <h1>SHOES </h1>
         <div className='flex'>
         
@@ -149,7 +149,7 @@ export const Products = (props) =>
    
                 </div>
                 </div>
-            </div>
-            <Footer/>
-        </div>);
+        </div>
+        <Footer/>
+    </div>);
 }

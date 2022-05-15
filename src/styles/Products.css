@@ -20,11 +20,7 @@
 .flex {
     display: flex;
 }
-.f{
-    /* background-color: rgb(209, 206, 210);   */
-    margin-top: -19px; 
-   
-}
+
 #spandiscount {
     text-decoration: line-through;
     color: grey;

@@ -23,7 +23,7 @@ export const UserDetails = () =>
             <h3 className='ud'>User Details</h3>
             <div className='mainu'>
                 <h4>Name : {userlogin[0].name}</h4>
-                <h4>Email : {userlogin[0].username}</h4>
+                <h4>Email : {userlogin[0].email}</h4>
                 <h4>Mobile : {userlogin[0].mobileno}</h4>
            
             {/* <button type="submit" onClick={logout} >logout</button> */}

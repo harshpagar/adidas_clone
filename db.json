@@ -1,165 +1,164 @@
-{"products" : 
-    [
-           {
-               "id":1,
-               "category":"Mens",
-               "type":"running",
-               "Title":"ADIZERO BOSTON 10 SHOES",
-               "Price":9799.50,
-               "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43d7c46c94424f289ebcad2401378282_9366/Adizero_Boston_10_Shoes_Blue_FZ2498_01_standard.jpg"
-               
-           },{
-            "id":2,
-            "category":"Mens",
-            "type":"Sportswear",
-            "Title":"X9000L1 SHOES",
-            "Price":5599.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a73c00910e84215879bacc2011734af_9366/X9000L1_Shoes_Black_H68081_01_standard.jpg"
-           },
-           {
-            "id":3,
-            "category":"Womens",
-            "type":"Running",
-            "Title":" RUNNING SHERETON SHOES",
-            "Price":1499.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5cf09e7979f469cbac2ae1a0109819d_9366/Running_Shereton_Shoes_Blue_EY2996_01_standard.jpg"
-           },
-           {
-            "id":4,
-            "category":"Mens",
-            "type":"Sportswear",
-            "Title":"ULTRABOOST 22 SHOES",
-            "Price":17499.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
-           },
-           {
-            "id":5,
-            "category":"Womens",
-            "type":"Running",
-            "Title":" RUNMAGICA SHOES",
-            "Price":1599.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce156143d5144cb99b60adb900ae75b1_9366/Runmagica_Shoes_Grey_EY2973_01_standard.jpg"
-           },
-           {
-            "id":6,
-            "category":"Mens",
-            "type":"Sportswear",
-            "Title":"ADI CHIC M",
-            "Price":15499.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58adc965df61417eb9c4ae32009d365d_9366/Adi_Chic_M_Grey_EY2924_01_standard.jpg"
-           },
-           {
-            "id":7,
-            "category":"Mens",
-            "type":"Sportswear",
-            "Title":" LITE RACER ADAPT 4.0 SHOES",
-            "Price":1999.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f69ecbcabc644d3aabd1ad160146667a_9366/Lite_Racer_Adapt_4.0_Shoes_Black_GZ2857_01_standard.jpg"
-           },
-           {
-            "id":8,
-            "category":"Womens",
-            "type":"Running",
-            "Title":"DUBBERS SHOES",
-            "Price":1499.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d64eafa520d4bafb35badb300e0d403_9366/Dubbers_Shoes_Blue_EW2473_01_standard.jpg"
-           },
-           {
-            "id":9,
-            "category":"Mens",
-            "type":"Running",
-            "Title":"PROXIMA SHOES",
-            "Price":18999.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b87c05ddf9f74ad8956cad9c005aaa90_9366/Proxima_Shoes_Black_EW2366_01_standard.jpg"
-           },
-           {
-            "id":10,
-            "category":"Womens",
-            "type":"Sportswear",
-            "Title":"ULTRABOOST 5.0 DNA SHOES",
-            "Price":2999.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg"
-           },
-           {
-            "id":11,
-            "category":"Mens",
-            "type":"Sportswear",
-            "Title":"ADIZERO BOSTON 10 SHOES",
-            "Price":9899.50,
-            "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43d7c46c94424f289ebcad2401378282_9366/Adizero_Boston_10_Shoes_Blue_FZ2498_01_standard.jpg"
-            
-        },{
-         "id":12,
-         "category":"Womens",
-         "type":"Running",
-         "Title":"X9000L1 SHOES",
-         "Price":5699.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a73c00910e84215879bacc2011734af_9366/X9000L1_Shoes_Black_H68081_01_standard.jpg"
-        },
-        {
-         "id":13,
-         "category":"Mens",
-         "type":"Running",
-         "Title":" RUNNING SHERETON SHOES",
-         "Price":1899.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5cf09e7979f469cbac2ae1a0109819d_9366/Running_Shereton_Shoes_Blue_EY2996_01_standard.jpg"
-        },
-        {
-         "id":14,
-         "category":"Womens",
-         "type":"Sportswear",
-         "Title":"ULTRABOOST 22 SHOES",
-         "Price":1499.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
-        },
-        {
-         "id":15,
-         "category":"Mens",
-         "type":"Sportswear",
-         "Title":" RUNMAGICA SHOES",
-         "Price":15999.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce156143d5144cb99b60adb900ae75b1_9366/Runmagica_Shoes_Grey_EY2973_01_standard.jpg"
-        },
-        {
-         "id":16,
-         "category":"Mens",
-         "type":"Running",
-         "Title":"ADI CHIC M",
-         "Price":1599.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58adc965df61417eb9c4ae32009d365d_9366/Adi_Chic_M_Grey_EY2924_01_standard.jpg"
-        },
-        {
-         "id":17,
-         "category":"Womens",
-         "type":"Running",
-         "Title":" LITE RACER ADAPT 4.0 SHOES",
-         "Price":1950.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f69ecbcabc644d3aabd1ad160146667a_9366/Lite_Racer_Adapt_4.0_Shoes_Black_GZ2857_01_standard.jpg"
-        },
-        {
-         "id":18,
-         "category":"Mens",
-         "type":"Sportswear",
-         "Title":"DUBBERS SHOES",
-         "Price":1899.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d64eafa520d4bafb35badb300e0d403_9366/Dubbers_Shoes_Blue_EW2473_01_standard.jpg"
-        },
-        {
-         "id":19,
-         "category":"Womens",
-         "type":"Sportswear",
-         "Title":"PROXIMA SHOES",
-         "Price":1899.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b87c05ddf9f74ad8956cad9c005aaa90_9366/Proxima_Shoes_Black_EW2366_01_standard.jpg"
-        },
-        {
-         "id":20,
-         "category":"Womens",
-         "type":"Running",
-         "Title":"ULTRABOOST 5.0 DNA SHOES",
-         "Price":2999.50,
-         "img1":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg"
-        }
-
-    ]
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Mens",
+      "type": "running",
+      "Title": "ADIZERO BOSTON 10 SHOES",
+      "Price": 9799.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43d7c46c94424f289ebcad2401378282_9366/Adizero_Boston_10_Shoes_Blue_FZ2498_01_standard.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": "X9000L1 SHOES",
+      "Price": 5599.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a73c00910e84215879bacc2011734af_9366/X9000L1_Shoes_Black_H68081_01_standard.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Womens",
+      "type": "Running",
+      "Title": " RUNNING SHERETON SHOES",
+      "Price": 1499.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5cf09e7979f469cbac2ae1a0109819d_9366/Running_Shereton_Shoes_Blue_EY2996_01_standard.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": "ULTRABOOST 22 SHOES",
+      "Price": 17499.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Womens",
+      "type": "Running",
+      "Title": " RUNMAGICA SHOES",
+      "Price": 1599.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce156143d5144cb99b60adb900ae75b1_9366/Runmagica_Shoes_Grey_EY2973_01_standard.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": "ADI CHIC M",
+      "Price": 15499.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58adc965df61417eb9c4ae32009d365d_9366/Adi_Chic_M_Grey_EY2924_01_standard.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": " LITE RACER ADAPT 4.0 SHOES",
+      "Price": 1999.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f69ecbcabc644d3aabd1ad160146667a_9366/Lite_Racer_Adapt_4.0_Shoes_Black_GZ2857_01_standard.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Womens",
+      "type": "Running",
+      "Title": "DUBBERS SHOES",
+      "Price": 1499.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d64eafa520d4bafb35badb300e0d403_9366/Dubbers_Shoes_Blue_EW2473_01_standard.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Mens",
+      "type": "Running",
+      "Title": "PROXIMA SHOES",
+      "Price": 18999.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b87c05ddf9f74ad8956cad9c005aaa90_9366/Proxima_Shoes_Black_EW2366_01_standard.jpg"
+    },
+    {
+      "id": 10,
+      "category": "Womens",
+      "type": "Sportswear",
+      "Title": "ULTRABOOST 5.0 DNA SHOES",
+      "Price": 2999.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg"
+    },
+    {
+      "id": 11,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": "ADIZERO BOSTON 10 SHOES",
+      "Price": 9899.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43d7c46c94424f289ebcad2401378282_9366/Adizero_Boston_10_Shoes_Blue_FZ2498_01_standard.jpg"
+    },
+    {
+      "id": 12,
+      "category": "Womens",
+      "type": "Running",
+      "Title": "X9000L1 SHOES",
+      "Price": 5699.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a73c00910e84215879bacc2011734af_9366/X9000L1_Shoes_Black_H68081_01_standard.jpg"
+    },
+    {
+      "id": 13,
+      "category": "Mens",
+      "type": "Running",
+      "Title": " RUNNING SHERETON SHOES",
+      "Price": 1899.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5cf09e7979f469cbac2ae1a0109819d_9366/Running_Shereton_Shoes_Blue_EY2996_01_standard.jpg"
+    },
+    {
+      "id": 14,
+      "category": "Womens",
+      "type": "Sportswear",
+      "Title": "ULTRABOOST 22 SHOES",
+      "Price": 1499.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 15,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": " RUNMAGICA SHOES",
+      "Price": 15999.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce156143d5144cb99b60adb900ae75b1_9366/Runmagica_Shoes_Grey_EY2973_01_standard.jpg"
+    },
+    {
+      "id": 16,
+      "category": "Mens",
+      "type": "Running",
+      "Title": "ADI CHIC M",
+      "Price": 1599.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58adc965df61417eb9c4ae32009d365d_9366/Adi_Chic_M_Grey_EY2924_01_standard.jpg"
+    },
+    {
+      "id": 17,
+      "category": "Womens",
+      "type": "Running",
+      "Title": " LITE RACER ADAPT 4.0 SHOES",
+      "Price": 1950.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f69ecbcabc644d3aabd1ad160146667a_9366/Lite_Racer_Adapt_4.0_Shoes_Black_GZ2857_01_standard.jpg"
+    },
+    {
+      "id": 18,
+      "category": "Mens",
+      "type": "Sportswear",
+      "Title": "DUBBERS SHOES",
+      "Price": 1899.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d64eafa520d4bafb35badb300e0d403_9366/Dubbers_Shoes_Blue_EW2473_01_standard.jpg"
+    },
+    {
+      "id": 19,
+      "category": "Womens",
+      "type": "Sportswear",
+      "Title": "PROXIMA SHOES",
+      "Price": 1899.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b87c05ddf9f74ad8956cad9c005aaa90_9366/Proxima_Shoes_Black_EW2366_01_standard.jpg"
+    },
+    {
+      "id": 20,
+      "category": "Womens",
+      "type": "Running",
+      "Title": "ULTRABOOST 5.0 DNA SHOES",
+      "Price": 2999.5,
+      "img1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg"
+    }
+  ]
 }
